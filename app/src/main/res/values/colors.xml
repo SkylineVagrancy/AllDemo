@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="query_e_popbtn">#F8F8F8</color>
+    <color name="title_background">#1FA35F</color>
+    <color name="title_color">#ffffff</color>
+    <color name="item_selected">#ffff0000</color>
+    <color name="common_pop">#88ffffff</color>
+</resources>

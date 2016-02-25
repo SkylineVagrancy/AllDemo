@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.pzh.common.CommonTitle
+        android:id="@+id/commonTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </com.pzh.common.CommonTitle>
+
+   <LinearLayout
+       android:layout_marginTop="5dp"
+       android:layout_marginBottom="5dp"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:orientation="horizontal">
+       <EditText
+           android:id="@+id/et_num"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:inputType="number"/>
+       <Button
+           android:id="@+id/btn_add"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="幸运号码"/>
+   </LinearLayout>
+    <TextView
+        android:id="@+id/lucky_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="中奖号码"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:background="#cbc7cc"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+        <GridView
+            android:id="@+id/bingocard"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+            android:numColumns="5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@null"
+            >
+        </GridView>
+
+    </LinearLayout>
+</LinearLayout>

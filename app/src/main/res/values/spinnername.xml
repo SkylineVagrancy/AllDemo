@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnername">
+        <item>申通快递</item>
+        <item>EMS</item>
+        <item>顺丰速运</item>
+        <item>韵达快递</item>
+        <item>圆通速递</item>
+        <item>中通快递</item>
+        <item>天天快递</item>
+        <item>中铁物流</item>
+        <item>德邦物流</item>
+        <item>全峰快递</item>
+    </string-array>
+</resources>
