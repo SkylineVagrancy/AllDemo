@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:gravity="center"
-                android:text="找房"
+                android:text="活动"
                 android:textSize="14dp" />
 
         </LinearLayout>
